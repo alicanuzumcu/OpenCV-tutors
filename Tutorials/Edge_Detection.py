@@ -18,6 +18,6 @@ edges = cv2.Canny(img,220,220)
 blurred = cv2.blur(edges, ksize=(2,2))
 
 #Visualize it!
-cv2.imshow('Foto',blurred)
+cv2.imshow('Photo',blurred)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
